@@ -110,6 +110,11 @@ main{
     justify-content: space-between;
 }
 
+.relleno{
+    height: 100vh;
+    width: 270px;
+}
+
 aside{
     position: fixed;
     min-width: 270px;
@@ -156,6 +161,7 @@ aside{
 .aside-button:last-child p{
     margin-left: 26px;
 }
+
 
 .videos{
     flex: 1;
