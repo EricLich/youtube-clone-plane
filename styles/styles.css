@@ -113,11 +113,12 @@ main{
 .relleno{
     height: 100vh;
     width: 270px;
+    transition: 400ms;
 }
 
 aside{
     position: fixed;
-    min-width: 270px;
+    width: 270px;
     top: 6%;
     left: 0;
     grid-area: aside;
@@ -129,6 +130,7 @@ aside{
     height: 100vh;
     overflow-y: scroll;
     z-index: 1;
+    transition: 400ms;
 }
 
 .aside-section{
